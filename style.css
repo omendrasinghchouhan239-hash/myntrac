@@ -1,0 +1,882 @@
+    
+      *{
+            margin: 0px;
+            padding: 0px;
+              box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            overflow-x: hidden;
+           font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+            margin: 0px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .container{
+            width: 100%;
+           height: 100%;
+            margin: auto;
+           position: relative;
+            border: 1px solid white;
+        }
+        .header{
+            width:100%;
+            height: 80px;
+            background: white;
+            position:sticky;
+            top: 0;
+            z-index: 9999;
+           
+            display: flex;
+
+        }
+        .navbarin:hover .menubar{
+          opacity: 1;
+           transition: 0.5s;
+           visibility: visible;
+        }
+        .menubar{
+          width: 95%;
+          height: 400px;
+        background-color: #f5f5f6;
+          position: absolute;
+         visibility: hidden;
+          padding-left: 25px;
+          top: 80px;
+          left: 25px;
+          opacity: 0;
+          display: flex;
+         
+        }
+        .menubar1{
+          width: 20%;
+        }
+        .menubar11{
+          width: 70%;
+          height: 230px;
+          border-bottom:1px solid #aeaeb3;
+        }
+        .menubar12{
+        margin-top: 10px; 
+        
+        }
+        .menubar2{
+          width: 20%;
+        }
+        .menubar21{
+           width: 70%;
+          height: 150px;
+          border-bottom:1px solid #aeaeb3;
+        }
+        .menubar22{
+           margin-top: 10px; 
+           width: 70%;
+          height: 150px;
+          border-bottom:1px solid #aeaeb3;
+        }
+        .menubar3{
+           width: 20%;
+        }
+        .menubar31{
+          width: 70%;
+          height: 185px;
+          border-bottom:1px solid #aeaeb3;
+        }
+        .menubar4{
+          width: 20%;
+        }
+        .menubar41{
+           width: 70%;
+          height: 210px;
+          border-bottom:1px solid #aeaeb3;
+        }
+        .menubar5{
+           width: 15%;
+        }
+        .menubar51{
+          width: 100%;
+          height: 310px;
+          border-bottom:1px solid #aeaeb3;
+        }
+        .menubar52{
+            width: 100%;
+          height: 90px;
+        }
+        .menubarhead{
+          font-size: 12px;
+          font-weight: 700;
+          color: #ff3f6c;
+          margin-top:15px ;
+        
+        }
+        .menubarp{
+          font-size: 13px;
+          color: #696b79;
+          margin-top: 5px;
+        }
+        .logocontainer{
+            width:8%;
+            height: 80px;
+           
+          
+        }
+        .logo{
+            width:90% ;
+            height: 46px;
+            margin: auto;
+            padding-top: 20px;
+            box-sizing: border-box;
+        }
+        .navbar{
+            width:45%;
+            height: 80px;
+           font-weight: 500;
+            display:flex;
+             
+        }
+        .navbarin{
+            width: 14%;
+            height:80px;
+           padding-top: 36px;
+            font-size: 11px;
+            font-weight: 600;
+             padding-left: 18px;
+             font-family: Arial, Helvetica, sans-serif;
+          
+        }
+        .navbarins{
+             width: 14%;
+            height:80px;
+           padding-top: 36px;
+            font-size: 11px;
+             padding-left: 18px;
+             position: relative;
+
+        }
+        .navbarinsa{
+            position: absolute;
+            margin: -22px 44px;
+            color: #ff3f6c;
+            font-size: 10px;
+        }
+        .headersearch{
+          width: 21%;
+        height: 40px;
+             background-color: #f5f5f6;
+             border: 1px solid #f5f5f6;
+        margin-left: 100px;
+        margin-top: 25px;
+       
+        }
+        .headerlogo{
+            height: 4%;
+            width: 14.5%;
+            margin-top:28px;
+            margin-left: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .headerlogobox{
+            height: 100%;
+            width: 25%;
+            text-align: center;
+          
+        }
+        .headerlogo1{
+            height: 20px;
+            width: 100%;
+            margin: auto;
+           
+        }
+        .headerlogo2{
+            height: 16px;
+            width: 90%;
+            margin: auto;
+            color: #000;
+           text-align: center;
+            bottom: 4px;
+            left: 1px;
+            font-size: 12px;
+            font-weight: 700;
+           
+        }
+        .maincontainer{
+            width: 100%;
+            height: 270px;
+            display: flex;
+           justify-content: center;
+            margin:auto; 
+            position: relative;
+        }
+        .discountbox{
+          width: 28%;
+          height: 15%;
+          background-color: #535766;
+          position: fixed;
+          top: 35%;
+          right: 40px;
+          transform: rotate(-90deg);
+          transform-origin: right top;
+          font-size: 25px;
+          letter-spacing: 1px;
+          color: white;
+          text-align: center;
+          z-index: 9990;
+         
+        }
+       .discountbox1{
+          width: 50px;
+          height: 60px;
+         
+          position: fixed;
+          top: 79%;
+          right: 2%;
+          border: 1px solid white;
+          border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+          z-index: 9990;
+        }
+        .discountbox1 img{
+          height: 50px;
+          width: 60px;
+          border-radius: 50%;
+        }
+       
+        .maincontainer img{
+              padding-top: 3%;
+              width: 45%;
+              height: 100%;
+        }
+        .container2{
+            width:100%;
+            height: 180px;
+            margin-left:55px;
+            
+        }
+        .container3{
+            width: 94%;
+            height: 670px;
+            margin: auto;
+         
+          
+        }
+        .container3 img{
+              padding-top: 30px;
+             width: 19.6%;
+             height: 30%;
+        }
+        .container4{
+            width: 100%;
+            margin: auto;
+           
+            text-align: center;
+        }
+        .container4 img{
+          width: 16%;
+          
+        }
+        .container4 div{
+            width: 50%;
+            margin: auto;
+        }
+        .container4 div img{
+          width: 32%;
+        }
+        .footer{
+            width: 100%;
+            height: 468px;
+            margin-top: 80PX;
+            display: flex;
+        }
+        .footerbox{
+            margin-left: 15px;
+            width: 15%;
+        }
+        .footerbox h6{
+            font-size: 10px;
+        }
+        .box2{
+            margin-top: 20px;
+            font-size: 13px;
+            color: #696b79;
+          
+        }
+        .box2 a{
+            text-decoration: none;
+            color:#696b79 ;
+         
+        }
+        .box2 a p{
+            margin-top: 8px;
+        }
+       .footerbox2{
+            width: 34%;
+       }
+        .footerbox2 h6{
+            font-size: 10px;
+        }
+        .footerimg{
+            width: 83%;
+            height:46px ;
+            margin-top: 20px;
+        }
+        .insta{
+            height: 22px;
+            margin-top: 10px;
+        }
+        .insta a img{
+            margin-left: 10px;
+        }
+        .footerbox4{
+            width: 25%;
+        }
+        .footerbox41{
+            height: 43px;
+            width: 100%;
+            display: flex;
+            margin-top: 4px;
+        }
+       
+        .filter{
+            width: 100%;
+            height: 145px;
+            background-color: #f5f5f6;
+            padding: 18px;
+            padding-right: 0px;
+        }
+       .filter p{
+            color: #282c3f;
+            height: 35px;
+            font-size: 12px;
+            word-spacing: 1px;
+        
+        }
+      .filterr{
+        display: flex;
+        gap: 21%;
+      }
+       .mencontainer{
+             width: 100%;
+            height: 1150px;
+            display: flex;
+           justify-content: center;
+            margin:auto;
+            border-top: 1px solid #e9e9ed;
+           background: #f5f5f6;
+           position: relative;
+           
+         
+           
+        }
+        
+      .mencontainerleft{
+        width: 25%;
+        height: 1150px;
+        border-right: 1px solid #e9e9ed;
+      
+        
+      }
+      .mencontainerright{
+        width: 75%;
+        height: 1150px;
+        padding-top: 24px;
+        padding-left: 25px;
+        padding-right: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        overflow: auto;
+        
+      }
+      .categories{
+        width: 100%;
+        height: 117px;
+         padding-left: 25px;
+        border-bottom: 1px solid #e9e9ed;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        position: relative;
+      }
+      .lefttop{
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 14px;
+        margin: 0 0 18px;
+        clear: both;
+        color: #282c3f;
+        display: block;
+      }
+      .checkbox{
+        font-size: 13px;
+        margin-bottom: 7px;
+        font-weight: 400;
+      }
+      .check{
+        width: 12px;
+        height: 12px;
+        margin-right: 7px;
+      }
+      .brand{
+        width: 100%;
+        height: 303px;
+         padding-left: 25px;
+         border-bottom: 1px solid #e9e9ed;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        position: relative;
+      }
+      .price{
+        width:100%;
+        height: 109px;
+         padding-left: 25px;
+        border-bottom: 1px solid #e9e9ed;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        position: relative;
+      }
+      .color{
+        width:100% ;
+        height: 277px;
+         padding-left: 25px;
+        border-bottom: 1px solid #e9e9ed;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        position: relative;
+      }
+      .checkbox2{
+        font-size: 14px;
+        margin-bottom: 7px;
+        font-weight: 400;
+        display: flex;
+      }
+      
+      .check2{
+        width: 13px;
+        height: 13px;
+        margin-top: 3px;
+        margin-right: 7px;
+        margin-left: 3px;
+        border: 1px solid #56565a;
+        border-radius: 50%;
+        display: block;
+      }
+      .discount{
+          width:100% ;
+        height: 282px;
+         padding-left: 25px;
+        border-bottom: 1px solid #e9e9ed;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        position: relative;
+      }
+      .rangep{
+        font-size: 13px;
+        font-weight: 300;
+        margin-left: 5px;
+      }
+      .menbox{
+        width:210px;
+        height:380px ;
+        position: relative;
+      
+      }
+      .menbox:hover .imagehov{
+        opacity:1 ;
+        transition: 0.4s;
+      }
+      .menimage{
+        width:210px ;
+        height: 280px;
+        position: relative;
+
+      }
+      .menimage2{
+        width: 70px;
+        height: 20px;
+        left:10px ;
+        bottom: 5px;
+        background-color: white;
+        position: absolute;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+      }
+       .imagehov{
+        width: 210px;
+        height: 80px;
+        position: absolute;
+        bottom: 50px;
+        background-color: white;
+        opacity: 0;
+      }
+      .imagehov1{
+        width: 190px;
+        height: 30px;
+        border: 1px solid #56565a ;
+        margin: 15px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px;
+        font-size: 11px;
+        font-weight: 500;
+      }
+      .imagehov2{
+        font-size: 13px;
+        font-weight: 300;
+        color: #56565a;
+        padding-left: 10px;
+      }
+
+      .menboxfooter{
+        width: 210px;
+        height: 100px;
+        padding: 10px;
+      }
+      .menboxfooter1{
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 1;
+        color: #282c3f;
+        margin-bottom: 6px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .menboxfooter2{
+        color: #535766;
+        font-size: 13px;
+        line-height: 1;
+        margin-bottom: 0;
+        margin-top: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-weight: 400;
+        display: block;
+       
+      }
+      .menboxfooter3{
+         padding-top: 8px;
+         font-size: 14px;
+      }
+      .menboxfooter31{
+         font-size: 14px;
+         font-weight:bold;
+      }
+      .menboxfooter32{
+         font-size: 12px;
+         text-decoration: line-through;
+         color: #56565a;
+      }
+      .menboxfooter33{
+         font-size: 12px;
+         color: #ff905a;
+      }
+      .tshirthead{
+        height: 7%;
+        width: 100%;
+        padding: 29px 0 22px;
+        padding-left: 25px;
+        font-size: 12px;
+        font-weight: 300px;
+        background-color: #fbfbff;
+      }
+      .tshirtcontainer{
+        width: 100%;
+        height: 1400px;
+        padding-left: 25px;
+        display: flex;
+
+      }
+      .tshirtcontainerleft{
+        width: 64%;
+        height: 1320px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .shadoweffect{
+        width: 48%;
+        height: 431px;
+        overflow: hidden;
+        box-shadow:  10px 5px 55px rgba(0,0,0,0.2);
+        transition:all 0.4s ease;
+
+      }
+      .shadoweffect img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition:all 0.4s ease;
+
+      }
+      .shadoweffect:hover{
+        box-shadow:inset 0px 0px 0px rgba(0,0,156,0.2);
+        
+      }
+      .shadoweffect:hover img{
+        filter: brightness(1.2) saturate(1.2);
+        transform: scale(1.2);
+
+      }
+      .tshirtcontainerright{
+        width: 36%;
+        height:1300px ;
+        margin-left: 20px;
+      }
+      .tshirtcontainerrighttop>span{
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 24px;
+        margin: 0 0 18px;
+        clear: both;
+        color: #282c3f;
+        display: block;
+      }
+      .tshirtcontainerrighttop>p{
+         color: #535766;
+        font-size: 18px;
+       
+        font-weight: 400;
+        display: block;
+        border-bottom: 1px solid #535766;
+        padding-bottom: 15px;
+      }
+      .rate{
+         padding-top: 8px;
+         width: 100%;
+       
+      }
+      .rate1{
+        font-size: 18px;
+        font-weight: bold;
+      }
+      .rate2{
+        font-size: 16px;
+        color: #535766;
+      
+        margin-left: 8px;
+      }
+      .rate3{
+          font-size: 16px;
+        color: #535766;
+        text-decoration: line-through;
+      }
+      .rate4{
+        margin-left: 8px;
+        color: #ff905a;
+      }
+      .rate5{
+        color: #03a685;
+        font-weight: 700;
+        font-size: 14px;
+        display: block;
+        margin: 10px 10px 0 0;
+      }
+      .rate6{
+        font-weight: 700;
+        margin-top: 20px;
+        display: block;
+      }
+      .colorsimage{
+        margin-top: 15px;
+      }
+      .size{
+        margin:20px 0px;
+      }
+      .size1{
+        margin: 20px 0px;
+        display: flex;
+        gap: 6px;
+      }
+      .size2{
+        height: 50px;
+        width: 50px;
+        border: 1px solid #535766;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+      }
+      .size3{
+        margin-top: 40px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #e9e9ed;
+        display: flex;
+        gap:8px;
+      }
+      .bag{
+        height: 54px;
+        width: 200px;
+        background-color: #ff3e6c;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+            font-weight: bold;
+
+      }
+      .wishlist{
+        height: 54px;
+        width: 130px;
+        border: 1px solid #e9e9ed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+        font-weight: bold;
+      }
+      .delivery{
+        padding-bottom: 30px;
+        padding-top: 20px;
+        
+        border-bottom: 1px solid #e9e9ed;
+      }
+      .deliveryh{
+        color: #282c3f;
+        font-size: 15px;
+        margin: 0;
+        display: inline;
+        font-weight: 700;
+       
+        text-transform: uppercase;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      .pincode{
+        width: 250px;
+        height: 45px;
+        border: 1px solid #e9e9ed ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 15px;
+        margin-top: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+      }
+      .pincode>p{
+         color: #535766;
+        font-size: 16px;
+       
+        font-weight: 400;
+      }
+      .garnty{
+        margin: 30px 0px;
+      }
+      .deliveryp{
+        color: #282c3f;
+        font-size: 15px;
+        font-weight: 300;
+        margin: 10px 0px;
+      }
+      .condition{
+        margin-top: 20px;
+      }
+      .condition1{
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 700;
+        color: #ff3f6c;
+        margin-top: 4px;
+        cursor: pointer;
+      }
+      .condition2{
+        margin-top: 15px;
+        color: #282c3f;
+        display: block;
+        font-size: 12px;
+      }
+
+      .bullet{
+        width: 4px;
+        height: 4px;
+        border-radius: 4px;
+        background-color: #282c3f;
+        margin-right: 10px;
+        margin-bottom: 2px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .condition3{
+         color: #282c3f;
+        font-size: 13px;
+        font-weight: 300;
+      }
+      .similar{
+        width: 100%;
+        margin: 20px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        gap:20px;
+    
+      }
+      .menboxs{
+        height:350px ;
+        width:18% ;
+        border:1px solid #535766;
+      }
+      .menimages{
+         height:260px ;
+          width:100%;
+      }
+      .menimages img{
+        width: 100%;
+        height:260px ;
+      }
+       .menboxfooters{
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+      }
+      .menboxfooters1{
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 1;
+        color: #282c3f;
+        margin-bottom: 6px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .menboxfooters2{
+        color: #535766;
+        font-size: 11px;
+        line-height: 1;
+        margin-bottom: 0;
+        margin-top: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-weight: 400;
+        display: block;
+       
+      }
+      .menboxfooters3{
+         padding-top: 8px;
+         font-size: 12px;
+      }
+      .menboxfooters31{
+         font-size: 12px;
+         font-weight:bold;
+      }
+      .menboxfooters32{
+         font-size: 10px;
+         text-decoration: line-through;
+         color: #56565a;
+      }
+      .menboxfooters33{
+         font-size: 10px;
+         color: #ff905a;
+      }
+      
+     
+     
+
